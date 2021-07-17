@@ -5,7 +5,19 @@
 
 ##############短期活动##############
 #7月粉丝互动
-1 8 * * * node /scripts/jd_wxFans.js >> /scripts/logs/jd_wxFans.log 2>&1
+1 8 * * * node /scripts/jd_wxFanswenmoux.js >> /scripts/logs/jd_wxFanswenmoux.log 2>&1
+#星系牧场
+1 0-23/2 * * * node /scripts/jd_qqxingwenmoux.js >> /scripts/logs/jd_qqxingwenmoux.log 2>&1
+#发财大赢家
+1 0 * * * node /scripts/jd_fcdyjwenmoux.js >> /scripts/logs/jd_fcdyjwenmoux.log 2>&1
+#东东乐园
+30 7 * * * node /scripts/jd_ddnc_farmparkwenmoux.js >> /scripts/logs/jd_ddnc_farmparkwenmoux.log 2>&1
+#天降红包
+30 7 * * * node /scripts/jd_SplitRedPacketwenmoux.js >> /scripts/logs/jd_SplitRedPacketwenmoux.log 2>&1
+#翻翻乐
+#1 6-21/1 * * * node /scripts/jd_618redpacketwenmoux.js  >> /scripts/logs/jd_618redpacketwenmoux.log 2>&1
+#口袋书店
+1 8,12,18 * * * node /scripts/jd_bookshopWenmoux.js >> /scripts/logs/jd_bookshopWenmoux.log 2>&1
 #愤怒的锦鲤
 0 0 * * * node /scripts/jd_angryKoi.js >> /scripts/logs/jd_angryKoi.log 2>&1
 #预存validate
@@ -16,8 +28,6 @@
 30 7 * * * node /scripts/jd_morningSc.js >> /scripts/logs/jd_morningSc.log 2>&1
 #省钱大赢家之翻翻乐
 20 * * * * node /scripts/jd_big_winner.js >> /scripts/logs/jd_big_winner.log 2>&1
-#发财大赢家
-1 0 * * * node /scripts/jd_fcdyj.js >> /scripts/logs/jd_fcdyj.log 2>&1
 ##############长期活动##############
 # 签到
 7 0,17 * * * cd /scripts && node jd_bean_sign.js >> /scripts/logs/jd_bean_sign.log 2>&1
@@ -119,14 +129,6 @@
 10 0-21/3 * * * node /scripts/jd_joy_steal.js >> /scripts/logs/jd_joy_steal.log 2>&1
 #京东签到图形验证
 14 10 * * * node /scripts/jd_sign_graphics.js >> /scripts/logs/jd_sign_graphics.log 2>&1
-#口袋书店
-1 8,12,18 * * * node /scripts/jd_bookshopWenmoux.js >> /scripts/logs/jd_bookshopWenmoux.log 2>&1
-#天降红包
-30 7 * * * node /scripts/jd_SplitRedPacket.js >> /scripts/logs/jd_SplitRedPacket.log 2>&1
-#东东乐园
-30 7 * * * node /scripts/jd_ddnc_farmpark.js >> /scripts/logs/jd_ddnc_farmpark.log 2>&1
-#星系牧场
-1 0-23/2 * * * node /scripts/jd_qqxing.js >> /scripts/logs/jd_qqxing.log 2>&1
 #早起福利
 30 6 * * * node /scripts/jd_goodMorning.js >> /scripts/logs/jd_goodMorning.log 2>&1
 #汪汪乐园每日助力
