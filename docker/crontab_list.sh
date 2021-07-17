@@ -26,15 +26,26 @@
 15 0-23/2 * * * node /scripts/jd_joysmiek2221.js >> /scripts/logs/jd_joysmiek2221.log 2>&1
 #宠汪汪偷好友积分与狗粮
 10 0-21/3 * * * node /scripts/jd_joy_stealsmiek2221.js >> /scripts/logs/jd_joy_stealsmiek2221.log 2>&1
-
+#送豆得豆
+45 4 * * * node /scripts/jd_sendBeanscdle.js >> /scripts/logs/jd_sendBeanscdle.log 2>&1
+#早起赢现金
+30 7 * * * node /scripts/jd_morningSccdle.js >> /scripts/logs/jd_morningSccdle.log 2>&1
+#汪汪乐园每日助力
+30 23 * * * node /scripts/jd_joy_park_helpcdle.js >> /scripts/logs/jd_joy_park_helpcdle.log 2>&1
+#早起福利
+30 6 * * * node /scripts/jd_goodMorningcdle.js >> /scripts/logs/jd_goodMorningcdle.log 2>&1
+#愤怒的现金
+0 0 * * * node /scripts/jd_angryCashcdle.js >> /scripts/logs/jd_angryCashcdle.log 2>&1
 #愤怒的锦鲤
-0 0 * * * node /scripts/jd_angryKoi.js >> /scripts/logs/jd_angryKoi.log 2>&1
+0 0 * * * node /scripts/jd_angryKoicdle.js >> /scripts/logs/jd_angryKoicdle.log 2>&1
+#签到领现金兑换
+#0 0 * * * node /scripts/jd_cash_exchangecdle.js >> /scripts/logs/jd_cash_exchangecdle.log 2>&1
+#发财大赢家助力
+0 0 * * * node /scripts/jd_dyj_helpcdle.js >> /scripts/logs/jd_dyj_helpcdle.log 2>&1
 #预存validate
 58 7,15,23 * * * node /scripts/jd_validate_Worker.js >> /scripts/logs/jd_validate_Worker.log 2>&1
 #宠汪汪兑换京豆
 59 7,15,23 * * * node /scripts/jd_reward.js >> /scripts/logs/jd_reward.log 2>&1
-#早起赢现金
-30 7 * * * node /scripts/jd_morningSc.js >> /scripts/logs/jd_morningSc.log 2>&1
 #省钱大赢家之翻翻乐
 20 * * * * node /scripts/jd_big_winner.js >> /scripts/logs/jd_big_winner.log 2>&1
 ##############长期活动##############
@@ -132,12 +143,6 @@
 0 0,12,23 * * * node /scripts/jd_lotteryMachine.js >> /scripts/logs/jd_lotteryMachine.log 2>&1
 # 京东排行榜
 21 9 * * * node /scripts/jd_rankingList.js >> /scripts/logs/jd_rankingList.log 2>&1
-#早起福利
-30 6 * * * node /scripts/jd_goodMorning.js >> /scripts/logs/jd_goodMorning.log 2>&1
-#汪汪乐园每日助力
-30 23 * * * node /scripts/jd_joy_park_help.js >> /scripts/logs/jd_joy_park_help.log 2>&1
-#送豆得豆
-45 4 * * * node /scripts/jd_sendBeans.js >> /scripts/logs/jd_sendBeans.log 2>&1
 #东东电竞经理
 0 0-23/2 * * * node /scripts/jd_EsportsManager.js >> /scripts/logs/jd_EsportsManager.log 2>&1
 #环境测试
