@@ -18,6 +18,15 @@
 #1 6-21/1 * * * node /scripts/jd_618redpacketwenmoux.js  >> /scripts/logs/jd_618redpacketwenmoux.log 2>&1
 #口袋书店
 1 8,12,18 * * * node /scripts/jd_bookshopWenmoux.js >> /scripts/logs/jd_bookshopWenmoux.log 2>&1
+#京东签到图形验证
+14 10 * * * node /scripts/jd_sign_graphicssmiek2221.js >> /scripts/logs/jd_sign_graphicssmiek2221.log 2>&1
+#点点券
+20 0,20 * * * node /scripts/jd_necklacesmiek2221.js >> /scripts/logs/jd_necklacesmiek2221.log 2>&1
+#京东宠汪汪
+15 0-23/2 * * * node /scripts/jd_joysmiek2221.js >> /scripts/logs/jd_joysmiek2221.log 2>&1
+#宠汪汪偷好友积分与狗粮
+10 0-21/3 * * * node /scripts/jd_joy_stealsmiek2221.js >> /scripts/logs/jd_joy_stealsmiek2221.log 2>&1
+
 #愤怒的锦鲤
 0 0 * * * node /scripts/jd_angryKoi.js >> /scripts/logs/jd_angryKoi.log 2>&1
 #预存validate
@@ -123,12 +132,6 @@
 0 0,12,23 * * * node /scripts/jd_lotteryMachine.js >> /scripts/logs/jd_lotteryMachine.log 2>&1
 # 京东排行榜
 21 9 * * * node /scripts/jd_rankingList.js >> /scripts/logs/jd_rankingList.log 2>&1
-#京东宠汪汪
-15 0-23/2 * * * node /scripts/jd_joy.js >> /scripts/logs/jd_joy.log 2>&1
-#宠汪汪偷好友积分与狗粮
-10 0-21/3 * * * node /scripts/jd_joy_steal.js >> /scripts/logs/jd_joy_steal.log 2>&1
-#京东签到图形验证
-14 10 * * * node /scripts/jd_sign_graphics.js >> /scripts/logs/jd_sign_graphics.log 2>&1
 #早起福利
 30 6 * * * node /scripts/jd_goodMorning.js >> /scripts/logs/jd_goodMorning.log 2>&1
 #汪汪乐园每日助力
@@ -139,7 +142,5 @@
 0 0-23/2 * * * node /scripts/jd_EsportsManager.js >> /scripts/logs/jd_EsportsManager.log 2>&1
 #环境测试
 0 12 * * * node /scripts/jd_api_test.js >> /scripts/logs/jd_api_test.log 2>&1
-#点点券
-20 0,20 * * * node /scripts/jd_necklace.js >> /scripts/logs/jd_necklace.log 2>&1
 #京喜牧场
 20 0-23/3 * * *  node /scripts/jd_jxmc.js >> /scripts/logs/jd_jxmc.log 2>&1
