@@ -5,7 +5,7 @@
 
 ##############短期活动##############
 #财富岛提现
-0 0 * * * node /scripts/jd_cfd_cashOut.js  >> /scripts/logs/jd_cfd_cashOut.log 2>&1
+0 12,0 * * * node /scripts/jd_cfd_cashOut.js  >> /scripts/logs/jd_cfd_cashOut.log 2>&1
 #7月粉丝互动
 1 8 * * * node /scripts/jd_wxFanswenmoux.js >> /scripts/logs/jd_wxFanswenmoux.log 2>&1
 #星系牧场
