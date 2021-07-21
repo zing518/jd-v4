@@ -5,7 +5,7 @@
 
 ##############短期活动##############
 #全民摸冰
-6 9,12 * * * node /scripts/jd_mb.js  >> /scripts/logs/jd_mb.log 2>&1
+6 9,12 * * * node /scripts/jd_mbwenmoux.js  >> /scripts/logs/jd_mbwenmoux.log 2>&1
 #财富岛提现
 0 12,0 * * * node /scripts/jd_cfd_cashOut.js  >> /scripts/logs/jd_cfd_cashOut.log 2>&1
 #7月粉丝互动
