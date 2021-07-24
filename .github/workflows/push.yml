@@ -21,9 +21,9 @@ jobs:
         mv ./smiek2221/JDJRValidator_Pure.js ./JDJRValidator_Pure.js
         mv ./smiek2221/ZooFaker_Necklace.js ./ZooFaker_Necklace.js
         mv ./smiek2221/sign_graphics_validate.js ./sign_graphics_validate.js
-        echo "========= 给js添加作者名称 ========="
-        rename 's/\.js/smiek2221.js/' ./smiek2221/*
-        cp -f ./smiek2221/*_*.js ./
+        #echo "========= 给js添加作者名称 ========="
+        #rename 's/\.js/smiek2221.js/' ./smiek2221/*
+        #cp -f ./smiek2221/*_*.js ./
         rm -rf ./smiek2221
         echo "========= 开始下载cdle的脚本 ========="
         git clone https://github.com/cdle/jd_study.git  ./cdle
