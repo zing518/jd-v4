@@ -1,8 +1,4 @@
 ##############短期活动##############
-#燃动夏季
-12 0,6-23/2 * * * node /scripts/jd_summer_movementsmiek2221.js  >> /scripts/logs/jd_summer_movementsmiek2221.log 2>&1
-#燃动夏季_SH助力
-14/41 7-14 * * * node /scripts/jd_summer_movement_helpsmiek2221.js  >> /scripts/logs/jd_summer_movement_helpsmiek2221.log 2>&1
 #全民摸冰
 6 9,12 * * * node /scripts/jd_mbwenmoux.js  >> /scripts/logs/jd_mbwenmoux.log 2>&1
 #财富岛提现
@@ -21,14 +17,6 @@
 #1 6-21/1 * * * node /scripts/jd_618redpacketwenmoux.js  >> /scripts/logs/jd_618redpacketwenmoux.log 2>&1
 #口袋书店
 1 8,12,18 * * * node /scripts/jd_bookshopWenmoux.js >> /scripts/logs/jd_bookshopWenmoux.log 2>&1
-#京东签到图形验证
-14 10 * * * node /scripts/jd_sign_graphicssmiek2221.js >> /scripts/logs/jd_sign_graphicssmiek2221.log 2>&1
-#点点券
-20 0,20 * * * node /scripts/jd_necklacesmiek2221.js >> /scripts/logs/jd_necklacesmiek2221.log 2>&1
-#京东宠汪汪
-15 0-23/2 * * * node /scripts/jd_joysmiek2221.js >> /scripts/logs/jd_joysmiek2221.log 2>&1
-#宠汪汪偷好友积分与狗粮
-10 0-21/3 * * * node /scripts/jd_joy_stealsmiek2221.js >> /scripts/logs/jd_joy_stealsmiek2221.log 2>&1
 #送豆得豆
 45 4 * * * node /scripts/jd_sendBeanscdle.js >> /scripts/logs/jd_sendBeanscdle.log 2>&1
 #早起赢现金
