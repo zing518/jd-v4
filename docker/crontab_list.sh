@@ -136,3 +136,5 @@
 0 12 * * * node /scripts/jd_api_test.js >> /scripts/logs/jd_api_test.log 2>&1
 #京喜牧场
 20 0-23/3 * * *  node /scripts/jd_jxmc.js >> /scripts/logs/jd_jxmc.log 2>&1
+#京喜签到
+10 9 * * *  node /scripts/jx_sign.js >> /scripts/logs/jx_sign.log 2>&1
