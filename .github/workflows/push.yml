@@ -49,7 +49,7 @@ jobs:
         tsc ./*.ts
         cd ..
         cp -f ./JDHelloWorld/*_*.js ./
-        cp -f ./JDHelloWorld/*_*.ts ./activity
+        cp -f ./JDHelloWorld/*_*.ts ./ts
         rm -rf ./JDHelloWorld
     - name: 'Commit Files'
       id: commit
