@@ -53,8 +53,10 @@ jobs:
         echo "========= 开始安装依赖 ========="
         sudo npm install
         echo "========= 开始转换JDHelloWorld的ts ========="
-        tsc ./JDHelloWorld/tools/jd_getShareCodes.ts
-        mv ./JDHelloWorld/tools/*.js ./tools/
+        mv ./JDHelloWorld/tools/jd_getShareCodes.ts ./
+        tsc ./JDHelloWorld/jd_getShareCodes.ts
+        rm -rf ./JDHelloWorld/jd_getShareCodes.ts
+        mv ./JDHelloWorld/jd_getShareCodes.js ./tools/
         tsc ./*.ts
         cd ..
         cp -f ./JDHelloWorld/*_*.js ./
