@@ -57,7 +57,6 @@ jobs:
         echo "========= 开始转换JDHelloWorld的ts ========="
         tsc ./*.ts
         cd ..
-        cp -f ./JDHelloWorld/jd_getShareCodes.js ./tools
         cp -f ./JDHelloWorld/*_*.js ./
         cp -f ./JDHelloWorld/*_*.ts ./ts
         rm -rf ./JDHelloWorld
