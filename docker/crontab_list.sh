@@ -138,3 +138,5 @@
 20 0-23/3 * * *  node /scripts/jd_jxmc.js >> /scripts/logs/jd_jxmc.log 2>&1
 #京喜签到
 10 9 * * *  node /scripts/jx_sign.js >> /scripts/logs/jx_sign.log 2>&1
+#领京豆
+0 9,12 * * * node /scripts/jd_bean_box.js >> /scripts/logs/jd_bean_box.log 2>&1
