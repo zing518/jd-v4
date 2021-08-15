@@ -26,10 +26,10 @@ jobs:
         #cp -f ./smiek2221/*_*.js ./
         rm -rf ./smiek2221
         echo "========= 开始下载cdle的脚本 ========="
-        git clone https://github.com/cdle/jd_study.git  ./cdle
+        git clone https://github.com/cdle/xdd.git  ./cdle
         echo "========= 给js添加作者名称 ========="
-        rename 's/\.js/cdle.js/' ./cdle/*
-        cp -f ./cdle/*_*.js ./
+        rename 's/\.js/cdle.js/' ./cdle/scripts/*
+        cp -f ./cdle/scripts/*_*.js ./
         rm -rf ./cdle
         echo "========= 开始下载Wenmoux的脚本 ========="
         git clone -b wen https://github.com/Wenmoux/scripts.git ./Wenmoux
