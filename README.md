@@ -8,7 +8,7 @@
 
 ## Special thanks to:
 
-* [@cdle](https://github.com/cdle/jd_study)
+* [@cdle](https://github.com/cdle/xdd)
 
 * [@smiek2221](https://github.com/smiek2221/scripts)
 
