@@ -53,6 +53,7 @@ jobs:
         mv ./JDHelloWorld/tools/*.js ./tools/
         mv ./JDHelloWorld/tools/*.ts ./tools/
         cd ./JDHelloWorld
+        rm -rf ./JDHelloWorld/jd_getShareCodes.ts
         echo "========= 开始安装依赖 ========="
         sudo npm install
         echo "========= 开始转换JDHelloWorld的ts ========="
