@@ -49,9 +49,9 @@ jobs:
         git clone -b main https://github.com/JDHelloWorld/jd_scripts.git ./JDHelloWorld
         mv ./JDHelloWorld/githubAction.md ./githubAction.md
         mv ./JDHelloWorld/sendNotify.js ./sendNotify.js
-        mv ./JDHelloWorld/tools/*.json ./tools/
-        mv ./JDHelloWorld/tools/*.js ./tools/
-        mv ./JDHelloWorld/tools/*.ts ./tools/
+        mv ./JDHelloWorld/utils/*.json ./utils/
+        mv ./JDHelloWorld/utils/*.js ./utils/
+        mv ./JDHelloWorld/utils/*.ts ./utils/
         rm -rf ./JDHelloWorld/jd_getShareCodes.ts
         cd ./JDHelloWorld
         echo "========= 开始安装依赖 ========="
