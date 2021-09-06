@@ -42,7 +42,7 @@ jobs:
         git clone -b main https://github.com/airacg/jd_task ./airacg
         echo "========= 给js添加作者名称 ========="
         rename 's/\.js/airacg.js/' ./airacg/*
-        cp -f ./airacg/*-*.js ./
+        cp -f ./airacg/*.js ./
         cp -f ./airacg/function/*.js ./function
         rm -rf ./airacg
         echo "========= 开始下载JDHelloWorld的脚本 ========="
