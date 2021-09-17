@@ -1,18 +1,6 @@
 ##############短期活动##############
 #财富岛提现
 0 12,0 * * * node /scripts/jd_cfd_withdraw.js  >> /scripts/logs/jd_cfd_withdraw.log 2>&1
-#星系牧场
-1 0-23/2 * * * node /scripts/jd_qqxingwenmoux.js >> /scripts/logs/jd_qqxingwenmoux.log 2>&1
-#发财大赢家
-1 0 * * * node /scripts/jd_fcdyjwenmoux.js >> /scripts/logs/jd_fcdyjwenmoux.log 2>&1
-#东东乐园
-30 7 * * * node /scripts/jd_ddnc_farmparkwenmoux.js >> /scripts/logs/jd_ddnc_farmparkwenmoux.log 2>&1
-#天降红包
-30 7 * * * node /scripts/jd_SplitRedPacketwenmoux.js >> /scripts/logs/jd_SplitRedPacketwenmoux.log 2>&1
-#翻翻乐
-#1 6-21/1 * * * node /scripts/jd_618redpacketwenmoux.js  >> /scripts/logs/jd_618redpacketwenmoux.log 2>&1
-#口袋书店
-1 8,12,18 * * * node /scripts/jd_bookshopWenmoux.js >> /scripts/logs/jd_bookshopWenmoux.log 2>&1
 #预存validate
 59 7,15,23 * * * node /scripts/jd_validate_Worker.js >> /scripts/logs/jd_validate_Worker.log 2>&1
 #宠汪汪兑换京豆
