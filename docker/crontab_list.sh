@@ -1,8 +1,6 @@
 ##############短期活动##############
 #财富岛提现
 0 12,0 * * * node /scripts/jd_cfd_withdraw.js  >> /scripts/logs/jd_cfd_withdraw.log 2>&1
-#7月粉丝互动
-1 8 * * * node /scripts/jd_wxFanswenmoux.js >> /scripts/logs/jd_wxFanswenmoux.log 2>&1
 #星系牧场
 1 0-23/2 * * * node /scripts/jd_qqxingwenmoux.js >> /scripts/logs/jd_qqxingwenmoux.log 2>&1
 #发财大赢家
@@ -15,22 +13,6 @@
 #1 6-21/1 * * * node /scripts/jd_618redpacketwenmoux.js  >> /scripts/logs/jd_618redpacketwenmoux.log 2>&1
 #口袋书店
 1 8,12,18 * * * node /scripts/jd_bookshopWenmoux.js >> /scripts/logs/jd_bookshopWenmoux.log 2>&1
-#送豆得豆
-45 4 * * * node /scripts/jd_sendBeanscdle.js >> /scripts/logs/jd_sendBeanscdle.log 2>&1
-#早起赢现金
-30 7 * * * node /scripts/jd_morningSccdle.js >> /scripts/logs/jd_morningSccdle.log 2>&1
-#汪汪乐园每日助力
-30 23 * * * node /scripts/jd_joy_park_helpcdle.js >> /scripts/logs/jd_joy_park_helpcdle.log 2>&1
-#早起福利
-30 6 * * * node /scripts/jd_goodMorningcdle.js >> /scripts/logs/jd_goodMorningcdle.log 2>&1
-#愤怒的现金
-0 0 * * * node /scripts/jd_angryCashcdle.js >> /scripts/logs/jd_angryCashcdle.log 2>&1
-#愤怒的锦鲤
-0 0 * * * node /scripts/jd_angryKoicdle.js >> /scripts/logs/jd_angryKoicdle.log 2>&1
-#签到领现金兑换
-#0 0 * * * node /scripts/jd_cash_exchangecdle.js >> /scripts/logs/jd_cash_exchangecdle.log 2>&1
-#发财大赢家助力
-0 0 * * * node /scripts/jd_dyj_helpcdle.js >> /scripts/logs/jd_dyj_helpcdle.log 2>&1
 #预存validate
 59 7,15,23 * * * node /scripts/jd_validate_Worker.js >> /scripts/logs/jd_validate_Worker.log 2>&1
 #宠汪汪兑换京豆
