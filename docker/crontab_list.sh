@@ -32,6 +32,8 @@
 #20 9 * * 6 node /scripts/jd_delCoupon.js >> /scripts/logs/jd_delCoupon.log 2>&1
 #京喜工厂
 10 * * * * node /scripts/jd_dreamFactory.js >> /scripts/logs/jd_dreamFactory.log 2>&1
+#京喜工厂助力
+10 * * * * node /scripts/jd_dreamFactory_help.js >> /scripts/logs/jd_dreamFactory_help.log 2>&1
 #京东家庭号
 1 12,23 * * * node /scripts/jd_family.js >> /scripts/logs/jd_family.log 2>&1
 #东东农场
