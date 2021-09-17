@@ -8,10 +8,7 @@
 
 ## Special thanks to:
 
-* [@cdle](https://github.com/cdle/xdd)
 
 * [@smiek2221](https://github.com/smiek2221/scripts)
-
-* [@Wenmoux](https://github.com/Wenmoux/scripts)
 
 * [@JDHelloWorld](https://github.com/JDHelloWorld/jd_scripts)
