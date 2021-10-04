@@ -46,7 +46,7 @@ jobs:
         mv ./JDHelloWorld/utils/*.json ./utils/
         mv ./JDHelloWorld/utils/*.js ./utils/
         mv ./JDHelloWorld/utils/*.ts ./utils/
-        rm -rf ./JDHelloWorld/jd_jxgc_help.ts
+        rm -rf ./JDHelloWorld/jd_jxgc_stock.ts
         rm -rf ./JDHelloWorld/jd_getShareCodes.ts
         cd ./JDHelloWorld
         echo "========= 开始安装依赖 ========="
